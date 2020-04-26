@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:subway.xcodeproj">
+      location = "self:/Users/hwangjunhui/Desktop/subway/algorithm.xcodeproj">
    </FileRef>
 </Workspace>

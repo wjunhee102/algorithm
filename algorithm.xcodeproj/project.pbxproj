@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F9E6902B24426AA000A3E504 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = F9E6902A24426AA000A3E504 /* main.c */; };
+		F9F4299C2455D8AD00E5B200 /* main2.c in Sources */ = {isa = PBXBuildFile; fileRef = F9F4299A2455D6B200E5B200 /* main2.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,9 +23,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		F94E264A24433AFF00E076AD /* subway */ = {isa = PBXFileReference; lastKnownFileType = folder; name = subway; sourceTree = "<group>"; };
-		F9E6902724426AA000A3E504 /* subway */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = subway; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9E6902724426AA000A3E504 /* algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9E6902A24426AA000A3E504 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		F9F4299A2455D6B200E5B200 /* main2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main2.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,8 +42,8 @@
 		F9E6901E24426AA000A3E504 = {
 			isa = PBXGroup;
 			children = (
-				F9E6902924426AA000A3E504 /* subway */,
-				F94E264A24433AFF00E076AD /* subway */,
+				F9F429992455D68500E5B200 /* New Group */,
+				F9E6902924426AA000A3E504 /* algorithm */,
 				F9E6902824426AA000A3E504 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,25 +51,33 @@
 		F9E6902824426AA000A3E504 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F9E6902724426AA000A3E504 /* subway */,
+				F9E6902724426AA000A3E504 /* algorithm */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F9E6902924426AA000A3E504 /* subway */ = {
+		F9E6902924426AA000A3E504 /* algorithm */ = {
 			isa = PBXGroup;
 			children = (
 				F9E6902A24426AA000A3E504 /* main.c */,
 			);
-			path = subway;
+			path = algorithm;
+			sourceTree = "<group>";
+		};
+		F9F429992455D68500E5B200 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				F9F4299A2455D6B200E5B200 /* main2.c */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F9E6902624426AA000A3E504 /* subway */ = {
+		F9E6902624426AA000A3E504 /* algorithm */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F9E6902E24426AA000A3E504 /* Build configuration list for PBXNativeTarget "subway" */;
+			buildConfigurationList = F9E6902E24426AA000A3E504 /* Build configuration list for PBXNativeTarget "algorithm" */;
 			buildPhases = (
 				F9E6902324426AA000A3E504 /* Sources */,
 				F9E6902424426AA000A3E504 /* Frameworks */,
@@ -79,9 +87,9 @@
 			);
 			dependencies = (
 			);
-			name = subway;
+			name = algorithm;
 			productName = subway;
-			productReference = F9E6902724426AA000A3E504 /* subway */;
+			productReference = F9E6902724426AA000A3E504 /* algorithm */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -98,7 +106,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F9E6902224426AA000A3E504 /* Build configuration list for PBXProject "subway" */;
+			buildConfigurationList = F9E6902224426AA000A3E504 /* Build configuration list for PBXProject "algorithm" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,7 +119,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F9E6902624426AA000A3E504 /* subway */,
+				F9E6902624426AA000A3E504 /* algorithm */,
 			);
 		};
 /* End PBXProject section */
@@ -121,7 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9E6902B24426AA000A3E504 /* main.c in Sources */,
+				F9F4299C2455D8AD00E5B200 /* main2.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,7 +264,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F9E6902224426AA000A3E504 /* Build configuration list for PBXProject "subway" */ = {
+		F9E6902224426AA000A3E504 /* Build configuration list for PBXProject "algorithm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F9E6902C24426AA000A3E504 /* Debug */,
@@ -265,7 +273,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F9E6902E24426AA000A3E504 /* Build configuration list for PBXNativeTarget "subway" */ = {
+		F9E6902E24426AA000A3E504 /* Build configuration list for PBXNativeTarget "algorithm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F9E6902F24426AA000A3E504 /* Debug */,
