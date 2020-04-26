@@ -6,6 +6,7 @@
 //  Copyright © 2020 황준희. All rights reserved.
 //
 
+// 실행속도 O(N ^ 2)
 #include <stdio.h>
 
 int main(void){

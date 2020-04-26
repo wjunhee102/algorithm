@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F9F429A02455DF2800E5B200 /* bubble_sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9F4299F2455DF2800E5B200 /* bubble_sort.cpp */; };
+		F9F429A424560C0800E5B200 /* quick_sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9F429A324560C0800E5B200 /* quick_sort.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +28,8 @@
 		F9F4299A2455D6B200E5B200 /* main2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main2.c; sourceTree = "<group>"; };
 		F9F4299D2455DC9200E5B200 /* select_sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = select_sort.cpp; sourceTree = "<group>"; };
 		F9F4299F2455DF2800E5B200 /* bubble_sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bubble_sort.cpp; sourceTree = "<group>"; };
+		F9F429A1245606DC00E5B200 /* insertion_sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = insertion_sort.cpp; sourceTree = "<group>"; };
+		F9F429A324560C0800E5B200 /* quick_sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quick_sort.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,8 @@
 				F9E6902A24426AA000A3E504 /* main.c */,
 				F9F4299D2455DC9200E5B200 /* select_sort.cpp */,
 				F9F4299F2455DF2800E5B200 /* bubble_sort.cpp */,
+				F9F429A1245606DC00E5B200 /* insertion_sort.cpp */,
+				F9F429A324560C0800E5B200 /* quick_sort.cpp */,
 			);
 			path = algorithm;
 			sourceTree = "<group>";
@@ -133,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9F429A02455DF2800E5B200 /* bubble_sort.cpp in Sources */,
+				F9F429A424560C0800E5B200 /* quick_sort.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
