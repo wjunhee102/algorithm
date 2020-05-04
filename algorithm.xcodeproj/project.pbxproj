@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F9F429A424560C0800E5B200 /* quick_sort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F9F429A324560C0800E5B200 /* quick_sort.cpp */; };
+		F9FEE215245ED6B800AF3FD6 /* reverseArray.c in Sources */ = {isa = PBXBuildFile; fileRef = F9FEE214245ED6B800AF3FD6 /* reverseArray.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +30,7 @@
 		F9F4299F2455DF2800E5B200 /* bubble_sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = bubble_sort.cpp; sourceTree = "<group>"; };
 		F9F429A1245606DC00E5B200 /* insertion_sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = insertion_sort.cpp; sourceTree = "<group>"; };
 		F9F429A324560C0800E5B200 /* quick_sort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = quick_sort.cpp; sourceTree = "<group>"; };
+		F9FEE214245ED6B800AF3FD6 /* reverseArray.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = reverseArray.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				F9E6902A24426AA000A3E504 /* main.c */,
+				F9FEE214245ED6B800AF3FD6 /* reverseArray.c */,
 				F9F4299D2455DC9200E5B200 /* select_sort.cpp */,
 				F9F4299F2455DF2800E5B200 /* bubble_sort.cpp */,
 				F9F429A1245606DC00E5B200 /* insertion_sort.cpp */,
@@ -137,7 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9F429A424560C0800E5B200 /* quick_sort.cpp in Sources */,
+				F9FEE215245ED6B800AF3FD6 /* reverseArray.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +259,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -265,6 +268,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
